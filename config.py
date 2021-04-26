@@ -1,7 +1,7 @@
 connection_config = dict(service_account='classification@cesbio-gee.iam.gserviceaccount.com',
                          json_token='./gee_token/cesbio-gee-92813d790a84.json')
 
-asset_name = "Spain_250_sample_combined"
+asset_name = "Italy_100_sample_combined"
 asset_config = dict(folder="users/ehsanelwan/" + asset_name, asset_name=asset_name, feature_identifier='FID')
 
 date_config = dict(start='2018-09-01', end='2020-09-01')
